@@ -26,7 +26,7 @@ public class OpenAIController {
     }
 
     @GetMapping("/bomModel")
-    public List<Bom> chat(@RequestBody String version) {
+    public Bom chat(@RequestBody String version) {
         return chatService.getBomModel(version);
     }
 
