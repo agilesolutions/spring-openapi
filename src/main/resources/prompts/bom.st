@@ -1,0 +1,1 @@
+list only library name and version for all java spring library version contained by springboot with version {version}.
